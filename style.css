@@ -77,9 +77,9 @@ ion-icon {
 
 #header {
 	background: url(./images/jesus-kiteque-224069-unsplash.jpg);
-	background-position: center center;
+	background-position: center bottom;
 	background-size: cover;
-	min-height: 480px;
+	min-height: 450px;
 	height: 300px;
 	width: 100%;
 }
