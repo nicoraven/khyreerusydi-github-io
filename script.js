@@ -14,13 +14,13 @@ fadeOut = (el) => {
 };
 
 let toggleMenu = (event) => {
-    console.log("click")
     let content = document.querySelector(".menu-content");
     if (content.style.display === "none") {
         console.log("opening");
         content.style.display = "block";
-    } else {
-        console.log("closing");
+    }
+    else if (content.style.display === "block" && event.target.className === "menu-content") {
+        console.log("closing", event.target.className);
         content.style.display = "none";
     }
 }
@@ -37,5 +37,5 @@ window.onload = () => {
     console.log("listening");
 
     let content = document.querySelector(".menu-content");
-    // console.log(content.style.display);
+    console.log(content.style.display);
 };
