@@ -34,3 +34,24 @@ a {
 	color: black;
 	font-size: 24px;
 }
+
+@media only screen and (max-device-width : 600px) {
+
+	.pageWrapper {
+		width: 80%;
+		padding: 25% 40px;
+	}
+
+	h1 {
+		font-size: 60px;
+	}
+
+	h2 {
+		font-size: 54px;
+	}
+
+	a {
+		font-size: 48px;
+	}
+
+}
