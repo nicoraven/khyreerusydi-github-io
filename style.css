@@ -82,4 +82,37 @@ ion-icon {
 	min-height: 450px;
 	height: 300px;
 	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.headerWrapper {
+	box-sizing: border-box;
+	background-color: #FFF;
+	width: 400px;
+	height: 300px;
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+}
+
+.headerBanner {
+	box-sizing: border-box;
+	width: 360px;
+	height: 260px;
+	border: solid 2px #000;
+	padding: 20px;
+}
+
+.headerBanner h1 {
+	font-size: 70px;
+	margin: 0;
+}
+
+.headerBanner h3 {
+	font-size: 28px;
+	margin: 0;
 }
