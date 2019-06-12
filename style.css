@@ -163,15 +163,125 @@ ion-icon {
 	margin: 0;
 }
 
+#projects {
+	background-color: #C7C7C7;
+}
+
+.projectsHeader {
+	text-align: center;
+	background-color: #EEEEEE;
+	padding: 40px 0;
+}
+
+.projectsHeader h2 {
+	display: inline;
+	padding: 20px;
+	background-color: #FFF;
+	font-size: 2em;
+	margin: 0 0 10px 0;
+	text-decoration: underline;
+}
+
+.projectsWrapper {
+	/*border: 1px solid red;*/
+	background-color: #C7C7C7;
+	width: 90%;
+	margin: 0 auto;
+	display: flex;
+	flex-flow: row wrap;
+}
+
+.card {
+	box-sizing: border-box;
+	width: 50%;
+	height: 400px;
+	/*padding: 40px;*/
+}
+
+.cardFace {
+	box-sizing: border-box;
+	/*border: solid 2px #000;*/
+	/*height: 320px;*/
+	height: 100%;
+	width: 100%;
+	padding: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: rgba(255,255,255,0.6);
+}
+
+.cardFace:hover {
+	background-color: rgba(255,255,255,0);
+}
+
+.project-title {
+	background-color: #fff;
+	padding: 20px;
+	margin: 0;
+	font-size: 1.2em;
+	border: solid 2px #000;
+	text-align: center;
+}
+
+#focusNow {
+	background: url(./images/focusNow.png);
+	background-position: center center;
+}
+
+#mps {
+	background: url(./images/mps.png);
+	background-position: center center;
+}
+
+#ms {
+	background: url(./images/ms.png);
+	background-position: center center;
+}
+
+#simon {
+	background: url(./images/simon.png);
+	background-position: center center;
+}
+
+#ttt {
+	background: url(./images/ttt.png);
+	background-position: center center;
+}
+
+.contact-me {
+	width: 80%;
+	margin: 0 auto;
+	display: flex;
+	padding: 10px 30px;
+	justify-content: center;
+}
+
+.contact-me li {
+	font-size: 1.1em;
+	margin: 0 10px;
+	/*border: solid 1px red;*/
+	display: flex;
+	align-items: center;
+}
+
+.pin {
+	font-size: 1.1em;
+}
+
 
 @media only screen and (max-device-width : 600px) {
+
+.navBar {
+	height: 60px;
+}
 
 #brandName {
 	font-size: 1.4em;
 }
 
 #header {
-	min-height: 300px;
+	min-height: 200px;
 }
 
 .headerWrapper {
@@ -207,5 +317,26 @@ ion-icon {
 	font-size: 0.7em;
 }
 
+.projectsHeader h2 {
+	font-size: 1.3em;
+}
+
+.card {
+	width: 100%;
+}
+
+.footer {
+	height: 70px;
+}
+
+.contact-me {
+	flex-direction: column;
+}
+
+.contact-me li {
+	/*margin-bottom: 5px;*/
+	display: flex;
+	justify-content: center;
+}
 
 }
